@@ -147,10 +147,10 @@ document.addEventListener("DOMContentLoaded", () => {
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
             
-            const phoneDest = '[NOMOR WHATSAPP]'; 
+            const phoneDest = '087825016167'; 
             
-            const waMessage = `Halo [NAMA LENGKAP], saya ${name} (${email}).%0A%0A${message}`;
-            const waUrl = `https://wa.me/${phoneDest}?text=${waMessage}`;
+            const waMessage = `Halo ZULFATHAN FIRDAUS JUNIAR, saya ${name} (${email}).%0A%0A${message}`;
+            const waUrl = `https://wa.me/087825016167${phoneDest}?text=${waMessage}`;
             
             window.open(waUrl, '_blank');
             contactForm.reset();
